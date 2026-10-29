@@ -1,0 +1,30 @@
+# Local datasets and generated artifacts
+data/*
+!data/README.md
+*.csv
+*.tsv
+*.parquet
+20k.txt
+results/
+outputs/
+figures/
+*.png
+*.jpg
+*.pdf
+*.pkl
+*.pickle
+*.joblib
+
+# Credentials and runtime files
+.env
+.env.*
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+.DS_Store
